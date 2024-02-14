@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact Me</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+        .contact{
+            text-align: center;
+            margin-top:40px;
+            display: grid;
+            gap:40px;
+        }
+
+
+         form{
+             border:2px solid black;
+             width:fit-content;
+             padding:50px;
+             margin:90px auto;
+             background-color: white;
+             border: 0px;
+             border-radius: 10px;
+             
+   
+       }
+       form:hover{
+        box-shadow: 0 0 10px rgba(9, 40, 132, 0.933);
+        border: 2px solid rgba(4, 42, 76, 0.952);
+        
+       }
+       input{
+        font-size:1.1em;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 4px;
+        box-sizing: border-box;
+        width: 100%;
+       }
+       input:focus{
+        background-color:lightblue;
+       }
+       textarea{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 12px;
+        padding-left: 4px;
+    
+       }
+       textarea:focus{
+        /* background-color:rgba(128, 0, 128,.5); */
+        background-color:lightblue;
+       }
+       h6{
+        font-size: 1.3em;
+        margin-bottom: 30px;
+        color:purple;
+        font-weight: 100;
+       
+       }
+      
+       .end{
+        background-color:rgba(5, 1, 5,.9);
+        color:rgba(255, 255, 255,.9);
+        padding:50px;
+        display: flex;
+       justify-content: space-between;
+       flex-wrap: wrap;
+   
+       }
+       .la{
+        background-color: purple;
+        text-align: center;
+        position: relative;
+        bottom: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color:rgba(255, 255, 255,.9);
+        font-size: 14px;
+      
+       
+       }
+       .end1>p{
+        font-size: 14px;
+        font-weight: 100;
+        word-spacing: 2px;
+    
+        
+       }
+     
+       a>img{
+        width:50px;
+        margin: 10px;
+        border:2px solid white
+       }
+       a>img:hover{
+        box-shadow: 2px 2px 20px yellow;
+        transition: .4s;
+       }
+
+
+       
+
+    
+       
+
+    </style>
+   
+</head>
+<body>
+    <header>
+        <nav>
+            <h4 class="link1">AJEESH </h4>
+            <a href="home.html" class="link2">Home</a>
+            <a href="skill.html"class="link3">Skill</a>
+            <a href="skill.html"class="link3">Project </a>
+            <a href="contact.html" class="link4">Contact</a>
+
+        </nav>
+    </header>
+
+    <div class="contact">
+        <h1>contact us</h1>
+        <p>if you like my skills and profile.you can contact me for an  interviwe. <br>
+        otheerwise if any bug reports, questions,feedback,feature requets--we're here for it all</p>
+    </div>
+
+    <div class="form">
+        <form action="submit" method="get">
+            <label for="email"> email</label><br>
+            <input type="email" id="email" name="email" placeholder="your@gmail.com" required><br>
+            <label for="sub">subject</label><br>
+            <input type=" text" id="sub" name="subject" required><br>
+            <label for="help">how we can help you ?</label><br>
+            <textarea name="enter your toughts" id="help" cols="30" rows="4"></textarea>
+              <div class=a1>
+                  <button type="submit">SEND</button>
+                  <!-- <a href="privacy.html">privacy policy</a> -->
+                </div>
+        </form>
+    </div>
+
+<div class="end">
+    <div class="end1">
+        <h6>contact us</h6>
+        <p>Mobile No: 6369045464</p><br>
+        <p>Mail:smajeesh3@gmail.com</p>
+    </div>
+
+    <div class="end1">
+        <h6>Address</h6>
+        <p>13/5b,<br><br>West Street,<br><br>kumarapuram Thoppur <br><br>kanyakumari-629402</p>
+    </div>
+
+    <div class="end1">
+       <h6>Follow Me</h6> 
+       <a href=""><img src="images/insta.jpeg" alt=""></a>
+      <a href="https://www.linkedin.com/in/ajeeshsm/"><img src="images/linkedin-logo-linkedin-icon-transparent-free-png.webp" alt=""></a> 
+      <a href="https://github.com/"><img src="images/github-6980894_1280.webp" alt=""></a> 
+    </div>
+  
+    
+
+</div>
+<div class="la">
+    <p>Copyright @Ajeesh private Limited | Developed by AJEESH</p>
+</div>
+
+
+   
+</body>
+</html>
